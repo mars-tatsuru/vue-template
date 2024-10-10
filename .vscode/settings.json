@@ -1,0 +1,39 @@
+{
+  // cSpell
+  "cSpell.words": [
+    "antfu",
+    "composables",
+    "Iconify",
+    "intlify",
+    "shadcn",
+    "tseslint",
+    "unplugin"
+  ],
+
+  // prettier
+  "prettier.enable": false,
+  "editor.formatOnSave": false,
+
+  // setting save
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+
+  // eslint
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "vue",
+    "html",
+    "markdown",
+    "json",
+    "jsonc",
+    "yaml"
+  ],
+
+  // stylelint for index.css using tailwindcss
+  "css.lint.unknownAtRules": "ignore",
+  "scss.lint.unknownAtRules": "ignore"
+}
